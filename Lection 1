@@ -1,0 +1,56 @@
+print("Hello World!")
+
+1 + 1
+2 - 1
+3 * 3
+4 / 2
+4 ^ 2
+4 ** 2
+4 / 3
+5 / 3
+5 %/% 3
+5 %% 3
+
+# I'm a comment
+# I am a comment
+
+print("I am not a comment") # I am a comment
+# print("old command")
+
+# 1 + 1
+# 2 + 1
+
+1 + 1 * 2
+
+1 + 1
+
+variable <- "value"
+variable
+
+my_name <- "piero"
+my_name
+
+myName <- "a"
+my.name
+
+my name <- "a"
+
+x1 <- 1
+1x <- 1
+
+my_name <- "piero"
+(tutor_name <- "arianna")
+
+my_var <- "old value"
+my_var <- "new value"
+
+3 ** 4
+my_res <- 3 ** 4
+my_res
+
+my_res2 <- my_res - 60
+my_res2
+
+help("print")
+?print
+?sum
