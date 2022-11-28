@@ -1,0 +1,72 @@
+TRUE
+T
+FALSE
+F
+True
+true
+f
+false
+f <- 1
+f
+
+1L
+typeof(1L)
+typeof(1)
+typeof(T)
+typeof(1)
+3.14
+typeof(3.14)
+typeof(10)
+typeof(10L)
+
+"hello"
+"a"
+typeof("What have you been eating this morning?")
+typeof("a")
+typeof("1")
+typeof("Via Irnerio 42")
+?typeof
+
+print("Hello World")
+
+first_word <- "Bellis"
+(second_word <- "perennis")
+
+species_name <- paste(first_word, second_word)
+species_name
+full_name <- paste(species_name, "L.")
+full_name
+"FALSE"
+typeof("FALSE")
+1
+typeof(1)
+1 L
+1L
+typeof(1L)
+3.14
+0.00005
+5 * 10 ^ (-5)
+"hello"
+'hello'
+typeof('hello')
+"hello'"
+
+5i
+install.packages("palmerpenguins")
+
+library(vegan)
+
+dplyr::select()
+raster::select()
+
+1 L
+greet <- "hello"
+GREET
+greets
+paste(first_word second_word)
+paste(first_word,, second_word)
+greet < - "hello"
+print("hello world")
+[]``
+   
+tidyverse
