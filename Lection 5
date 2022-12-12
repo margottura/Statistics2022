@@ -1,0 +1,108 @@
+my_integer <- 1:5
+integer_length <- length(my_integer)
+my_integer[integer_length]
+
+my_integer <- 6:12
+integer_length <- length(my_integer)
+my_integer[integer_length]
+
+my_integer[(integer_length - 2):integer_length]
+
+
+
+work_days <- c("monday", "tuesday", "wednesday", "thursday", "sunday")
+work_days
+work_days[5] <- "friday"
+work_days
+
+scores <- c("good", "good", "n.c.", "n.c.", "excellent")
+scores[3:4] <- "insufficient"
+scores
+
+scores <- c("good", "good", "n.c.", "n.c.", "excellent")
+scores_to_fix <- c(FALSE, FALSE, TRUE, TRUE, FALSE)
+scores[scores_to_fix] <- "insufficient"
+scores
+
+my_integer <- 1:5
+my_integer <- c(my_integer, 6:10)
+my_integer2 <- 11:15
+c(my_integer, my_integer2)
+
+my_integer <- my_integer[-1]
+my_integer[-(3:7)]
+my_integer[-c(1, 5, 9)]
+
+
+vec1 <- 0:2
+vec2 <- 3:5
+
+vec1 + vec2
+vec1 * vec2
+vec1 - vec2
+vec1 / vec2
+
+vec1 * 5
+
+vec3 <- 1:2
+vec1
+vec1 + vec3
+
+
+plant_diversity <- c("Rosaceae" = 45L, 
+                     "Fabaceae" = 30L, 
+                     "Poaceae" = 56L)
+plant_diversity["Rosaceae"]
+plant_diversity[Rosaceae]
+plant_diversity[c("Rosaceae", "Poaceae")]
+names(plant_diversity)
+
+names(plant_diversity)[2] <- "Leguminosae"
+plant_diversity
+
+names(plant_diversity) <- NULL
+plant_diversity
+
+
+c("hello", 3)
+c(FALSE, 3L)
+c(TRUE, 3.14)
+c(TRUE, "hello")
+c("hello", 3L)
+c(3.14, 2L)
+
+c("hello", TRUE, 3.14)
+c(TRUE, 3.14, 2L)
+
+
+c(TRUE, FALSE)
+as.integer(c(TRUE, FALSE))
+as.numeric(c(TRUE, FALSE))
+class(as.double(c(TRUE, FALSE)))
+as.character(c(TRUE, FALSE))
+# as.*()
+as.logical(c(0, 1, 2))
+as.logical(c(-1, 0, 1, 2))
+as.logical(c(-1, 0, 1, 2.15))
+as.logical(c("hello", "hi"))
+as.logical(c("TRUE", "FALSE"))
+c("1", "hello", "3.14")
+as.numeric(c("1", "hello", "3.14"))
+as.integer(c("1", "hello", "3.14"))
+as.integer(c("1", "hello", "3.54"))
+as.logical(c("1", "hello", "3.54", "TRUE"))
+
+# is.*()
+
+is.logical(c(TRUE, FALSE))
+is.logical(c(1, 3))
+is.integer(c(1L, 3L))
+is.integer(c("hello", "good morning"))
+is.double(c(3.14, 2))
+is.numeric(c(3.14, 2))
+
+is.double(c(3L, 1L))
+is.numeric(c(3L, 1L))
+
+is.character(c(TRUE, FALSE))
+is.character(c("hello", "good morning"))
